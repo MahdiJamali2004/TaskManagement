@@ -15,13 +15,33 @@ Key features:
 📝 Categorized notes: Organize your notes by categories like study or work.
 ## ScreenShots 
 
-<p float="left">
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <img src="screenShots/1.jpg" width="80%" />
+    </td>
+    <td align="center" width="20%">
+      <img src="screenShots/2.jpg" width="80%" />
+    </td>
+    <td align="center" width="20%">
+      <img src="screenShots/3.jpg" width="80%" />
+    </td>
+      <td align="center" width="20%">
+      <img src="screenShots/4.jpg" width="80%" />
+    </td>
+      <td align="center" width="20%">
+      <img src="screenShots/5.jpg" width="80%" />
+    </td>
+    
+  </tr>
+</table>
+<!-- <p float="left">
   <img src="screenShots/1.jpg" width="20%" />
   <img src="screenShots/2.jpg" width="20%" />
   <img src="screenShots/3.jpg" width="20%" />
   <img src="screenShots/4.jpg" width="20%" />
-    <img src="screenShots/5.jpg" width="20%" />
-</p>
+ <img src="screenShots/5.jpg" width="20%" />
+</p> -->
 
  ## Contributing
 
