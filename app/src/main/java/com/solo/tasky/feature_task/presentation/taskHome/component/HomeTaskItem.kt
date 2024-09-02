@@ -145,7 +145,8 @@ fun HomeTaskItem(
                     text = task.description,
                     maxLines = 4,
                     overflow = TextOverflow.Ellipsis,
-                    fontSize = 14.sp,
+                    fontSize = MaterialTheme.typography.labelMedium.fontSize,
+                    lineHeight = 12.sp,
                     color = MaterialTheme.colorScheme.onPrimary
                 )
             }

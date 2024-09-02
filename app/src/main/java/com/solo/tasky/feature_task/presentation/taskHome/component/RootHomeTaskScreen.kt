@@ -18,10 +18,6 @@ fun RootHomeTaskScreen(
 
     HomeTaskScreen(
         homeScreenStates = homeScreenStates.value,
-
-        onProfileClick = {
-            navController.navigateUp()
-        },
         onSearchFocusChange = {
             homeScreenViewModel.onEvents(HomeScreenEvents.SearchFocusChange(it))
         },

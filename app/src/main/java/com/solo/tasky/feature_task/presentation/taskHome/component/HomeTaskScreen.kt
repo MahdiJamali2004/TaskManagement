@@ -32,6 +32,7 @@ import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExtendedFloatingActionButton
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -79,7 +80,6 @@ import java.time.LocalDate
 fun HomeTaskScreen(
     modifier: Modifier = Modifier,
     homeScreenStates: HomeScreenStates,
-    onProfileClick: () -> Unit,
     onSearchFocusChange: (FocusState) -> Unit,
     onSearchChange: (String) -> Unit,
     onEditTaskClick: (Int) -> Unit,
@@ -148,10 +148,10 @@ fun HomeTaskScreen(
 
 
                         }
-                        Divider(
+                        HorizontalDivider(
                             modifier = Modifier.fillMaxWidth(),
-                            color = MaterialTheme.colorScheme.onPrimary,
-                            thickness = 1.dp
+                            thickness = 1.dp,
+                            color = MaterialTheme.colorScheme.onPrimary
                         )
                         Row(
                             Modifier

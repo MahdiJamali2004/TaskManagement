@@ -93,8 +93,8 @@ object Modules {
 
     @Provides
     @Singleton
-    fun provideInitializeNotificationWorker(app: Application , taskUseCases: TaskUseCases): InitializeNotificationWorker {
-        return InitializeNotificationWorker(taskUseCases,app.applicationContext)
+    fun provideInitializeNotificationWorker(app: Application ): InitializeNotificationWorker {
+        return InitializeNotificationWorker(app.applicationContext)
     }
 
 }
